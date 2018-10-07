@@ -1,0 +1,271 @@
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+	background: url(img/background.png) repeat;
+	font: normal 1em 'helvetica';
+	color: #4a545d;
+}
+
+.wrapper{
+	position: relative;
+	min-height: 100%;
+	min-width: 978px;
+	height: auto;
+}
+.page-footer{
+	height: 80px;
+}
+
+/* шапка */
+.container-big{
+	max-width: 1024px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.page-header{
+	height: 119px;
+	background: #eff3f7 bottom center no-repeat;
+	position: relative;
+	margin-bottom: 39px;
+}
+.page-header .header-logo-link{
+	position: absolute;
+	top: 39px;
+	left: 0;
+}
+.page-header .header-logo-link{
+	position: absolute;
+	top: 39px;
+	left: 0;
+}
+.page-header .header-logo-text{
+	position: absolute;
+	top: 39px;
+	left: -9999px;
+}
+.page-header .socials{
+	position: absolute;
+	right: 0;
+	top: 36px;
+}
+
+/* соц ссылки */
+.socials{
+	margin: 0;
+	padding: 0;
+	min-width: 260px;
+}
+.socials .socials-item{
+	list-style: none;
+	display: inline-block;
+	height: 47px;
+	width: 47px;
+	margin-left: 19px;
+}
+.socials .socials-item:first-child{
+	margin-left: 0;
+}
+.socials .socials-link{
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-align: -9999px;
+	background: rgb(109, 117, 130);
+}
+.socials .socials-link.gt {
+	background-position: -71px -3px;
+	background-image: url(img/github1.png);
+}
+.socials .socials-link.linkedin {
+	background-position: -140px -3px; 
+	background-image: url(img/linkedin1.png);
+}
+.socials .socials-link.vk {
+	background-position: -209px -3px;
+	background-image: url(img/vk1.png);
+ }
+.socials .socials-link:hover {background-position-y: -65px; }
+
+/* сайдбар */
+.sidebar{
+	width: 250px;
+	float: left;
+}
+
+/* аватар */
+.avatar-box{
+	width: 135px;
+	height: 135px;
+	border-radius: 50% 50%;
+	overflow: hidden;
+	border: 5px solid #3ba8c0;
+}
+.avatar{
+		margin-left: 10px;
+}
+
+/* навигация */
+.navigation{
+	overflow: hidden;
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 26px;
+}
+.navigation .navigation-list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navigation .navigation-item{
+	border-top: 2px solid #3ba8c0;
+	margin: 0 11px;
+}
+.navigation .navigation-item:first-child{
+	border-top: none;
+}
+.navigation .navigation-item.current{
+	background: #3ba8c0;
+	margin: 0;
+	border-bottom: none;
+	padding-left: 11px;
+	margin-bottom: -2px;
+}
+.navigation .navigation-item.current .navigation-link{
+	color: #f9fafb;
+	font-size: 22px;
+}
+.navigation .navigation-link{
+	font-family: 'helvetica';
+	display: block;
+	font-size: 20px;
+	text-decoration: none;
+	color: #959aa8;
+	margin-left: 16px;
+	padding: 20px 0px;
+}
+.navigation .navigation-link:hover{
+	color: #3ba8c0;
+}
+
+
+.aboutbox{
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 12px;
+}
+.aboutbox .aboutbox-header{
+	font-family: 'helvetica';
+	font-size: 27px;
+	font-weight: normal;
+	color: #3ba8c0;
+	border-bottom: 2px #3ba8c0 solid;
+	margin: 0 0 23px 0;
+	padding: 13px 23px;
+	display: inline-block;
+}
+.about-body{
+	padding-bottom: 40px;
+}
+
+/* лицо */
+.image-wrap{
+	float: left;
+	margin-left: 55px;
+	margin-top: 18px;
+}
+
+
+/* обо мне */
+.aboutbox .worksheet-wrap{
+	float: right;
+	width: 400px;
+}
+.worksheet-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.worksheet-info{
+	float: left;
+	margin-left: 25px;
+	max-width: 260px;
+}
+.worksheet-item{
+	margin-bottom: 8px;
+}
+.worksheet-what{
+	font-family: 'helvetica';
+	font-size: 16px;
+	float: left;
+}
+.worksheet-info{
+	font-family: 'helvetica';
+	font-size: 15px;
+	overflow: hidden;
+	max-width: 218px;
+}
+.skills-list{
+	width: 224px;
+	padding: 0;
+	list-style: none;	
+}
+.skills-list .skill-item{
+	display: inline-block;	
+	font-family: 'helvetica';
+	background: #3ba8c0;
+	border-radius: 4px;
+	padding: 0 7px;
+	margin: 6px;
+	color: white;
+	display: inline-block;
+	line-height: 1.2;
+	min-width: 40px;
+	text-align: center;
+}
+.aboutbox-item{
+	font-family: 'helvetica';
+	font-size: 15px;
+	line-height: 1;
+}
+
+/* главная область */
+.variable-content{
+	width: 650px;
+	float: right;
+}
+
+/* футер */
+.page-footer{
+	background: #eff3f7 top center no-repeat;
+	font-family: 'helvetica';
+	color: #4a545d;
+}
+.page-footer .container{
+	padding-top: 23px;
+	position: relative;
+}
+.page-footer .copyright{
+	margin: 0 180px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.container{
+	display: flow-root;
+	width: 960px;
+	margin: 0 auto;
+}
+.text-center{
+	text-align: center;
+}
+.pull-left{
+	float: left;
+}
+.pull-right{
+	float: right;
+}
